@@ -6,7 +6,7 @@ include("includes/header.php");
         <h2 class="text-uppercase">information</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Et molestie ac feugiat sed. Diam volutpat commodo.
+            dolore magna aliqua. Et molestie ac feugiat sed. Diam volutpat commodo. hI HARNIL I AM ARYAN
         </p>
         <p class="text">
             <span>Sub Head:</span>
