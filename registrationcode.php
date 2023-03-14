@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("admin/config/dbcon.php");
 if (isset($_POST['btnsubmit'])) {
     $fname = $_POST['txtfname'];
