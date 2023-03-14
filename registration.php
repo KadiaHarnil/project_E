@@ -32,41 +32,31 @@ include("includes/header.php");
                 Looks good!
             </div>
         </div>
+
         <div class="col-md-12">
-            <label for="validationCustomUsername" class="form-label">Username</label>
-            <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                <input type="text" class="form-control" id="validationCustomUsername"
-                    aria-describedby="inputGroupPrepend" required>
-                <div class="invalid-feedback">
-                    Please choose a username.
-                </div>
+            <label for="validationCustom03" class="form-label">E-mail</label>
+            <input type="email" class="form-control mb-4" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Please provide a valid city.
             </div>
         </div>
         <div class="col-md-6">
-            <label for="validationCustom03" class="form-label">Password</label>
-            <input type="password" class="form-control" id="validationCustom03" required>
+            <label for="validationCustom03" class="form-label"></label>
+            <input type="password" class="form-control mb-4" placeholder="Password" id="validationCustom03" required>
             <div class="invalid-feedback">
                 Please provide a valid city.
             </div>
         </div>
         <div class="col-md-6">
             <label for="validationCustom03" class="form-label">Confirm Password </label>
-            <input type="password" class="form-control" id="validationCustom03" required>
-            <div class="invalid-feedback">
-                Please provide a valid city.
-            </div>
-        </div>
-        <div class="col-md-12">
-            <label for="validationCustom03" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="validationCustom03" required>
+            <input type="password" class="form-control mb-4" id="validationCustom03" required>
             <div class="invalid-feedback">
                 Please provide a valid city.
             </div>
         </div>
         <div class="col-md-12 mb-2">
             <label for="validationCustom05" class="form-label">Phone no</label>
-            <input type="tel" class="form-control" id="validationCustom05" required>
+            <input type="tel" class="form-control mb-4" id="validationCustom05" required>
             <div class="invalid-feedback">
                 Please provide a valid zip.
             </div>
