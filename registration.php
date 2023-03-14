@@ -4,10 +4,7 @@ include("includes/header.php");
 <div class="wrapper m-auto">
     <div class="form-left">
         <h2 class="text-uppercase">information</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Et molestie ac feugiat sed. Diam volutpat commodo. hI HARNIL I AM ARYAN
-        </p>
+
         <p class="text">
             <span>Sub Head:</span>
             Vitae auctor eu augudsf ut. Malesuada nunc vel risus commodo viverra. Praesent elementum facilisis leo vel.
