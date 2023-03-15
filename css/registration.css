@@ -8,11 +8,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background: #00e5ff;
-  min-height: 100vh;
-}
-
 .wrapper {
   max-width: 850px;
   background-color: #fff;
@@ -84,7 +79,7 @@ body {
 }
 
 .wrapper .form-right h2 {
-  color: #3786bd;
+  color: hsl(210, 6%, 73%);
 }
 
 .wrapper .form-right label {
@@ -170,7 +165,7 @@ body {
 
 .wrapper .register {
   padding: 12px;
-  background: #3786bd;
+  /* background: #3786bd; */
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
   width: 130px;
