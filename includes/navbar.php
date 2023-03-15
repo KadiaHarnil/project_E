@@ -28,5 +28,28 @@
         </div>
     </div>
     <button type="button" class="btn btn-outline-primary">Login</button>
-    <button type="button" class="btn btn-primary mx-2">Sign-up</button>
+    <button type="button" class="btn btn-primary mx-2 ">Sign-up</button>
+    <!-- Example split primary button -->
+    <div class="btn-group">
+        <button type="button" class="btn btn-outline-primary">Action</button>
+        <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
+            data-mdb-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li>
+                <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+    </div>
+    <style>
+        .btn:hover {
+            background-color: #3b71ca;
+            color: white;
+        }
+    </style>
 </nav>

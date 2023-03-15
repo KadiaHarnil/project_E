@@ -11,10 +11,10 @@ include('includes/navbar.php');
             <img src="images\poster\poster.jpg" class="d-block w-100" alt="Wild Landscape" />
         </div>
         <div class="carousel-item" data-mdb-interval="3000">
-            <img src="images\poster\poster3.jpg" class="d-block w-100" alt="Camera" />
+            <img src="" class="d-block w-100" alt="Camera" />
         </div>
         <div class="carousel-item data-mdb-interval=" 3000"">
-            <img src="images\poster\poster4.png" class="d-block w-100" alt="Exotic Fruits" />
+            <img src="" class="d-block w-100" alt="Exotic Fruits" />
         </div>
     </div>
     <button class="carousel-control-prev" data-mdb-target="#carouselExampleInterval" type="button"
