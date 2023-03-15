@@ -18,7 +18,6 @@ include("includes/header.php");
         </div>
     </div>
     <form class="row  needs-validation form-right m-auto" action="registrationcode.php" method="post" novalidate>
-        <?php include("message.php"); ?>
         <div class="col-md-6">
             <label for="validationCustom01" class="form-label">First name</label>
             <input type="text" class="form-control" id="validationCustom01" name="txtfname" required>
@@ -36,8 +35,8 @@ include("includes/header.php");
 
         </div>
         <div class="col-md-6">
-            <label for="validationCustom03" class="form-label"></label>
-            <input type="password" class="form-control mb-4" placeholder="Password" name="txtpass"
+            <label for="validationCustom03" class="form-label">Password</label>
+            <input type="password" class="form-control mb-4" name="txtpass"
                 id="validationCustom03" required>
 
         </div>
@@ -49,15 +48,12 @@ include("includes/header.php");
         <div class="col-md-12 mb-2">
             <label for="validationCustom05" class="form-label">Phone no</label>
             <input type="tel" class="form-control mb-4" id="validationCustom05" name="txtphno" required>
-
         </div>
         <div class="col-12 form-field">
 
             <button class="btn btn-primary" type="submit" name="btnsubmit">Submit form</button>
         </div>
-
     </form>
-
 </div>
 <?php
 include("includes/scripts.php");
