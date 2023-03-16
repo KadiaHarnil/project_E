@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse mx-2" id="navbarNav">
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -27,10 +27,10 @@
             </ul>
         </div>
     </div>
-    <button type="button" class="btn btn-outline-primary">Login</button>
-    <button type="button" class="btn btn-primary mx-2 ">Sign-up</button>
+    <button type="button" class="btn btn-outline-primary ">Login</button>
+    <button type="button" class="btn btn-primary mx-2">Signup</button>
     <!-- Example split primary button -->
-    <div class="btn-group">
+    <div class="btn-group mx-2">
         <button type="button" class="btn btn-outline-primary">Action</button>
         <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
             data-mdb-toggle="dropdown" aria-expanded="false">
