@@ -3,9 +3,6 @@
 include('includes/header.php');
 include('includes/navbar.php');
 ?>
-
-
-
 <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-mdb-ride="carousel">
     <div class="carousel-inner img-fluid">
         <div class="carousel-item active img-fluid" data-mdb-interval="3000">
@@ -30,92 +27,119 @@ include('includes/navbar.php');
     </button>
 </div>
 <div class="text-center m-3">
-    <h1>Why Biodegredable?</h1>
+    <h1 class="mt-3">Why Biodegredable?</h1>
 
 </div>
-<div class="card m-auto" style="max-width: 740px;">
-    <div class="row g-0">
-        <div class="col-md-4">
-            <img src="images\card images\img1.png" class="img-fluid rounded-start" alt="...">
+
+<article class="postcard container-fluid w-30 ">
+    <a class="postcard__img_link" href="#">
+        <img class="postcard__img" height="400px" data-aos="fade-right" data-aos-offset="500"
+            data-aos-easing="ease-in-sine" src="images\card images\img1.png" alt="Image Title" />
+    </a>
+    <div class="postcard__text mt-5">
+        <h1 class="postcard__title yellow"><a href="#">1. Repurposing & Recycling </a></h1>
+
+
+        <div class="postcard__preview-txt" style="color:black; letter-spacing: 2px;" data-aos="fade-left"
+            data-aos-anchor="#example-anchor" data-aos-offset="1500" data-aos-duration="900">The oils that come from
+            plants make bioplastics far superior
+            materials compared to traditional plastic types. The oils make the surface of bioplastics more malleable and
+            less brittle so that it’s easier to form new shapes and textures.
+
+            They are just as moldable as traditional plastics and can be turned into various appealing ways to suit your
+            requirements. In addition to this, they can also be recycled and repurposed multiple times in their life
+            cycle.
+
+            Compare this to some non-biodegradable plastics, they are not safe for repurposing because some materials
+            can leak toxic, dangerous chemicals that may leak after the first use.
+
+            <div class="mt-3">
+                <a class="btn btn-outline-primary" href="login.php" role="button">Read More<i
+                        class="fa-solid fa-angles-right mx-1"></i></a>
+            </div>
+
         </div>
-        <div class="col-md-8" style="background-color: #146C94; color:white">
-            <div class="card-body">
-                <h5 class="card-title">1. Reduction In Carbon Emissions</h5>
-                <p class="card-text">Polystar’s unique biodegradable material is made from PLA bioplastic. As this is
-                    plant-based, the manufacturing process produces far fewer carbon emissions than traditional plastic.
-                </p>
-                <p class="card-text"><small>While traditional plastic releases four tons of
-                        emissions, biodegradable plastics emit only 0.8 tons of carbon – a 500% reduction! </small></p>
+
+
+    </div>
+</article>
+
+
+<article class="postcard container-fluid w-30 ">
+    <div class="postcard__text mt-5">
+        <h1 class="postcard__title yellow"><a href="#">2. Non-Toxic</a></h1>
+        <div class="postcard__preview-txt" style="color:black; letter-spacing: 2px;" data-aos="fade-left"
+            data-aos-anchor="#example-anchor" data-aos-offset="1500" data-aos-duration="900">Biodegradable bags are made
+            from natural materials which means that they are safer for users.
+
+            Traditional plastics are made with harmful by-products and chemicals which are a threat to the environment
+            and life as well. They are likely to emit these harmful substances during the breakdown process. What’s
+            more, the plastic used for most standard water bottles, PET, can attract harmful bacteria or even leak
+            chemicals.
+
+            But this is not a case with biodegradable plastic, further supporting the case for biodegradable plastics.
+            They are safe and don’t release toxins during their breakdown process. They are absorbed by the soil.
+
+            <div class="mt-3">
+                <a class="btn btn-outline-primary" href="login.php" role="button">Read More<i
+                        class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
         </div>
     </div>
-</div>
+    <a class="postcard__img_link" href="#">
+        <img class="postcard__img" height="400px" data-aos="fade-right" data-aos-offset="500"
+            data-aos-easing="ease-in-sine" src="images\card images\img3.png" alt="Image Title" />
+    </a>
+</article>
 
-<div class="card m-auto mt-4" style="max-width: 740px;">
-    <div class="row g-0">
-        <div class="col-md-8" style="background-color: #146C94; color:white">
-            <div class="card-body">
-                <h5 class="card-title">2. Waste Reduction</h5>
-                <p class="card-text"> As biodegradable plastics break down over time, this means there is a large
-                    reduction in the volume of waste being created which means less waste ending up in landfill.
-                </p>
-                <p class="card-text"><small>Currently, the UK generates over 30 million tonnes of household waste every
-                        year, approximately 35% of which is garden and kitchen waste. </small></p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="images\card images\img2.png" class="img-fluid rounded-start" alt="...">
-        </div>
-    </div>
-</div>
+<article class="postcard container-fluid w-30 ">
+    <a class="postcard__img_link" href="#">
+        <img class="postcard__img" height="400px" data-aos="fade-right" data-aos-offset="500"
+            data-aos-easing="ease-in-sine" src="images\card images\recycle.png" alt="Image Title" />
+    </a>
+    <div class="postcard__text mt-5">
+        <h1 class="postcard__title yellow"><a href="#">3. Less Petroleum</a></h1>
 
-<div class="card m-auto mt-3" style="max-width: 740px;">
-    <div class="row g-0">
-        <div class="col-md-4">
-            <img src="images\card images\img3.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8" style="background-color: #146C94; color:white">
-            <div class="card-body">
-                <h5 class="card-title">3.Non-Toxic</h5>
-                <p class="card-text">Polystar’s unique biodegradable material is made from PLA bioplastic. As this is
-                    plant-based, the manufacturing process produces far fewer carbon emissions than traditional plastic.
-                </p>
-                <p class="card-text"><small>While traditional plastic releases four tons of
-                        emissions, biodegradable plastics emit only 0.8 tons of carbon – a 500% reduction! </small></p>
+        <div class="postcard__preview-txt" style="color:black; letter-spacing: 2px;" data-aos="fade-left"
+            data-aos-anchor="#example-anchor" data-aos-offset="1500" data-aos-duration="900">Biodegradable plastics also
+            minimises the use of petroleum supplies. Traditional plastic is manufactured by oil molecules being heated
+            and treated to convert into polymers.
+
+            Nearly 2.7 per cent of a country’s petroleum is used in the traditional plastic manufacturing processes.
+
+            Biodegradable plastics, on the other hand, are made using natural materials such as sugar cane, corn, orange
+            peels, starch, and plants. This process requires far less energy and usually does not involve the burning of
+            fossil fuels.
+
+            Therefore, this means that the amount of biodegradable plastics that can be manufactured is much higher
+            while simultaneously using far less energy.
+
+            <div class="mt-3">
+                <a class="btn btn-outline-primary" href="login.php" role="button">Read More<i
+                        class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
         </div>
     </div>
-</div>
+</article>
 
-<div class="container mt-5">
+
+
+<div class="container mt-4 mb-4">
 
     <div class="d-flex justify-content-between align-items-center mb-3">
 
-        <span>Hottest Giveaways</span>
-        <span class="custom-badge text-uppercase">See More</span>
+        <h2>Featured Products</h2>
+        <span class="custom-badge text-uppercase">Explore More</span>
 
     </div>
-
-
-
     <div class="row">
 
-        <div class="col-md-4">
-
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="1500">
             <div class="card">
 
                 <div class="d-flex justify-content-between align-items-center">
 
-                    <div class="d-flex flex-row align-items-center time">
-
-                        <i class="fa fa-clock-o"></i>
-                        <small class="ml-1">3 Days</small>
-
-
-                    </div>
-
-                    <img src="https://i.imgur.com/suuFVrQ.png" width="20">
-
+                    <a href="#" class="badge badge-danger">10% off</a>
                 </div>
 
 
@@ -125,87 +149,66 @@ include('includes/navbar.php');
                 </div>
 
                 <div class="text-center">
-
-                    <h5>Amazon Echo</h5>
-                    <span class="text-success">$200 value</span>
-
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="col-md-4">
-
-            <div class="card">
-
-                <div class="d-flex justify-content-between align-items-center">
-
-                    <div class="d-flex flex-row align-items-center time">
-
-                        <i class="fa fa-clock-o"></i>
-                        <small class="ml-1 text-primary">00:02:13</small>
-
-
-                    </div>
-
-                    <img src="https://i.imgur.com/suuFVrQ.png" width="20">
-
-                </div>
-
-
-                <div class="text-center">
-
-                    <img src="images\waterbottles\bootlenob.png" width="250">
-                </div>
-
-                <div class="text-center">
-
-                    <h5>Bio Degredable Bottles</h5>
-                    <span>Starting at:</span>
-                    <span class="text-success">Rs:300/-</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-md-4">
-
-            <div class="card">
-
-                <div class="d-flex justify-content-between align-items-center">
-
-                    <div class="d-flex flex-row align-items-center time">
-
-                        <i class="fa fa-clock-o"></i>
-                        <small class="ml-1">2 Days</small>
-
-                    </div>
-
-                    <img src="https://i.imgur.com/suuFVrQ.png" width="20">
-
-                </div>
-
-
-                <div class="text-center">
-
-                    <img src="images\cups\cups2.png" width="250">
-                </div>
-
-                <div class="text-center">
-
-                    <h5>Biodegredable Coffee Cups</h5>
+                    <h5>Biodegredable Bouls</h5>
                     <span>Starting at:</span>
                     <span class="text-success"> Rs:150/-</span>
+                </div>
+                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Read More<i
+                        class="fa-solid fa-angles-right mx-1"></i></a>
+
+            </div>
+
+        </div>
+        <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1500">
+
+            <div class="card">
+
+                <div class="d-flex justify-content-between align-items-center">
 
 
+
+                    <a href="#" class="badge badge-danger">10% off</a>
                 </div>
 
+
+                <div class="text-center">
+
+                    <img src="images\bags\bags1.png" width="250">
+                </div>
+
+                <div class="text-center">
+                    <h5>Bio Degredable Pouches</h5>
+                    <span>Starting at:</span>
+                    <span class="text-success">Rs:300/-</span>
+                </div>
+                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Read More<i
+                        class="fa-solid fa-angles-right mx-1"></i></a>
+
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4" data-aos="fade-left" data-aos-duration="1500">
+
+            <div class="card">
+
+                <div class="d-flex justify-content-between align-items-center">
+
+
+                    <a href="#" class="badge badge-danger">10% off</a>
+                </div>
+                <div class="text-center">
+                    <img src="images\cups\cups2.png" width="250">
+                </div>
+                <div class="text-center">
+
+                    <h5>Biodegredable cups</h5>
+                    <span>Starting at:</span>
+                    <span class="text-success"> Rs:150/-</span>
+                </div>
+                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Read More<i
+                        class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
 
         </div>
