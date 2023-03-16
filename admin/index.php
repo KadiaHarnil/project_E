@@ -1,4 +1,9 @@
 <?php
+session_start();
+if(isset($_SESSION['auth_user']))
+{
+    header("location:../index.php");
+}
 include("includes/header.php");
 include("includes/navbar.php");
 include("includes/sidebar.php");
