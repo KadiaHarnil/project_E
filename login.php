@@ -24,20 +24,20 @@ include("includes/header.php");
                                     <?php include("message.php"); ?>
 
                                     <h2 class="fw-bold mb-4 pb-2">Login</h2>
-                                    <form action="" method="post">
+                                    <form action="logincode.php" method="post">
                                         <div class="form-outline mb-3">
-                                            <input type="email" id="typeEmail" class="form-control form-control-lg" />
+                                            <input type="email" id="typeEmail" name="txtemail" class="form-control form-control-lg" />
                                             <label class="form-label" for="typeEmail">Email</label>
                                         </div>
 
                                         <div class="form-outline mb-4">
-                                            <input type="password" id="typePassword"
+                                            <input type="password" id="typePassword" name="txtpass"
                                                 class="form-control form-control-lg" />
                                             <label class="form-label" for="typePassword">Password</label>
                                         </div>
 
                                         <div class="text-center">
-                                            <button class="btn btn-info btn-block btn-lg" type="submit">Login</button>
+                                            <button class="btn btn-info btn-block btn-lg" type="submit" name="btnlogin">Login</button>
                                             <p class="small mt-3 mb-4 text-muted">Forgot <span class="fw-bold"><a
                                                         href="#!" class="text-muted">Username</a> / <a href="#!"
                                                         class="text-muted">Password</a>?</span></p>

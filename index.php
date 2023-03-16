@@ -1,7 +1,10 @@
 <?php
+// session_start();
 include('includes/header.php');
 include('includes/navbar.php');
 ?>
+
+
 
 <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-mdb-ride="carousel">
     <div class="carousel-inner img-fluid">
@@ -11,7 +14,7 @@ include('includes/navbar.php');
         <div class="carousel-item" data-mdb-interval="3000">
             <img src="images\poster\1-biodegradabl.jpg" class="d-block w-100" alt="Camera" />
         </div>
-        <div class="carousel-item data-mdb-interval=" 3000"">
+        <div class="carousel-item" data-mdb-interval="3000">
             <img src="" class="d-block w-100" alt="Exotic Fruits" />
         </div>
     </div>
