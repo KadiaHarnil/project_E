@@ -4,6 +4,9 @@ if(isset($_SESSION['auth_user']))
 {
     header("location:../index.php");
 }
+if(!isset($_SESSION['auth1'])){
+    header("location:../login.php");
+}
 include("includes/header.php");
 include("includes/navbar.php");
 include("includes/sidebar.php");
