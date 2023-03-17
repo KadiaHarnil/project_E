@@ -9,40 +9,41 @@
 <!-- jquery -->
 <script src="https://cdnjs.cloudflarjquery-3.6.4.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script> https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">  </script>
 <!-- MDB -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
-<script> https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js </script>
+<s cript type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 
-<script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-    (function () {
-        'use strict'
+    <script>
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.querySelectorAll('.needs-validation')
+        (function () {
+            'use strict'
 
-        // Loop over them and prevent submission
-        Array.prototype.slice.call(forms)
-            .forEach(function (form) {
-                form.addEventListener('submit', function (event) {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
 
-                    form.classList.add('was-validated')
-                }, false)
-            })
-    })()
-</script>
-<script>
-    AOS.init();
-</script>
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
 
-<!-- owl carousel -->
-<script src=" owl_carousel/owl.carousel.js"></script>
-<script src="script.js"></script>
-</body>
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+    <script>
+        AOS.init();
+    </script>
 
-</html>
+    <!-- owl carousel -->
+    <script src=" owl_carousel/owl.carousel.js"></script>
+    <script src="script.js"></script>
+    </body>
+
+    </html>
