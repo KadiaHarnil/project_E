@@ -5,16 +5,22 @@ if (isset($_SESSION['auth1_user'])) {
 include('includes/header.php');
 include('includes/navbar.php');
 ?>
+<style>
+    .carousel-inner {
+        height: 100vh;
+        /* min-height: 300px;    */
+    }git
+</style>
 <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-    <div class="carousel-inner img-fluid">
-        <div class="carousel-item active img-fluid" data-mdb-interval="3000">
-            <img src="images\poster\poster.jpg" class="d-block w-100" alt="Wild Landscape" />
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-mdb-interval="3000">
+            <img src="images\poster\poster.jpg" height="800px" class="d-block w-100" alt="Wild Landscape" />
         </div>
         <div class="carousel-item" data-mdb-interval="3000">
-            <img src="images\poster\poster4.png" class="d-block w-100" alt="Camera" />
+            <img src="images\poster\poster4.png" height="750px" class="d-block w-100" alt="Camera" />
         </div>
         <div class="carousel-item" data-mdb-interval="3000">
-            <img src="images\poster\cupsposter.png" class="d-block w-100" alt="Exotic Fruits" />
+            <img src="images\poster\cupsposter.png" height="800px" class="d-block w-100" alt="Exotic Fruits" />
         </div>
     </div>
     <button class="carousel-control-prev" data-mdb-target="#carouselExampleInterval" type="button"
