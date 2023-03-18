@@ -13,37 +13,37 @@
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-    <script>
+<script>
 
-        (function () {
-            'use strict'
+    (function () {
+        'use strict'
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.querySelectorAll('.needs-validation')
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
 
-            // Loop over them and prevent submission
-            Array.prototype.slice.call(forms)
-                .forEach(function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-        })()
-    </script>
-    <script>
-        AOS.init();
-    </script>
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
+</script>
+<script>
+    AOS.init();
+</script>
 
-    <!-- owl carousel -->
-    <script src=" owl_carousel/owl.carousel.js"></script>
-    <script src="script.js"></script>
-    </body>
+<!-- owl carousel -->
+<script src=" owl_carousel/owl.carousel.js"></script>
+<script src="script.js"></script>
+</body>
 
-    </html>
+</html>
