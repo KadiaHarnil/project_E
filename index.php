@@ -9,7 +9,7 @@ include('includes/navbar.php');
     .carousel-inner {
         height: 100vh;
         /* min-height: 300px;    */
-    }git
+    }
 </style>
 <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-mdb-ride="carousel">
     <div class="carousel-inner">
