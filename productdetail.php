@@ -11,11 +11,11 @@ $result = $con->query($qry);
             <?php while ($row = $result->fetch_assoc()) {
                 $img = "images/" . $row['pimg'];
                 ?>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card">
                         <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
                             data-mdb-ripple-color="light">
-                            <img src="<?= $img; ?>" class="w-100 h-100" />
+                            <img src="<?= $img; ?>" class="w-100 " />
                             <a href="#!">
                                 <div class="mask">
                                     <div class="d-flex justify-content-start align-items-end h-100">
@@ -29,7 +29,7 @@ $result = $con->query($qry);
                         </div>
                         <div class="card-body">
                             <a href="" class="text-reset">
-                                <h3 class="card-title mb-3" style="font-family: 'Labrada', serif; color:#d12e11;">
+                                <h3 class="card-title mb-3" style="font-family: 'Labrada', serif; color:#3b71ca">
                                     <?= $row['pname']; ?>
                                 </h3>
                             </a>
@@ -38,7 +38,7 @@ $result = $con->query($qry);
                                 <?= $row['pprice']; ?>/-
                             </h6>
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <button class="btn btn-danger" type="button">Explore Now</button>
+                                <button class="btn btn-primary" type="button">Explore Now</button>
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
     <style type="text/css">
         html {
-            background-color: #D3CEC0;
+            background-color: #7891bc;
         }
 
         body {
@@ -71,26 +71,26 @@
                                             <i class="fas fa-laptop" style="color: #D6D6D6;"></i>
                                         </div>
 
-                                        <div class="picZoomer">
-                                            <img src="images/0.jpg" height="320" width="320" alt="">
+                                        <div class="picZoomer mx-5">
+                                            <img src="images/bags1.png" height="320" width="320" alt="">
                                         </div>
 
-                                        <ul class="piclist">
+                                        <ul class="piclist mx-5">
                                             <li><img src="images/bags1.png" alt=""></li>
                                             <li><img src="images/1.jpg" alt=""></li>
                                             <li><img src="images/2.jpg" alt=""></li>
                                             <li><img src="images/3.jpg" alt=""></li>
-                                            <li><img src="images/4.jpg" alt=""></li>
+                                            <!-- <li><img src="images/4.jpg" alt=""></li>
                                             <li><img src="images/5.jpg" alt=""></li>
                                             <li><img src="images/6.jpg" alt=""></li>
                                             <li><img src="images/7.jpg" alt=""></li>
-                                            <li><img src="images/8.jpg" alt=""></li>
+                                            <li><img src="images/8.jpg" alt=""></li> -->
                                         </ul>
 
                                     </div>
                                     <div class="col-md-6 col-xl-4 ">
 
-                                        <h2 class="fw-bold">Member Login</h2>
+                                        <h2 class="fw-bold">Sambar Pouches</h2>
                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, saepe esse
                                         exercitationem temporibus tempora perferendis a ducimus assumenda, optio nam
                                         nulla, fugit vero minima reiciendis libero id ipsam quasi pariatur!
@@ -98,16 +98,27 @@
 
                                         <hr>
                                         <div class="m-bot15"> <strong>Price : </strong> <span class="amount-old"></span>
-                                            <span class="pro-price"> $300.00</span>
+                                            <span class="pro-price">Rs:200/-</span>
                                         </div>
+                                        <hr>
                                         <div class="form-group mb-2">
                                             <label>Quantity</label>
                                             <input type="quantiy" placeholder="1" class="form-control quantity">
                                         </div>
+                                        <hr>
                                         <p>
+                                            <button class="btn btn-round btn-outline-primary" type="button"><i
+                                                    class="fa fa-shopping-cart"></i>Buy Now</button>
+
                                             <button class="btn btn-round btn-outline-primary" type="button"><i
                                                     class="fa fa-shopping-cart"></i> Add to Cart</button>
                                         </p>
+                                        <style>
+                                            .btn:hover {
+                                                background-color: #3b71ca;
+                                                color: white;
+                                            }
+                                        </style>
                                     </div>
                                 </div>
 
