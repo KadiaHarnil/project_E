@@ -45,7 +45,8 @@
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <!-- Content -->
 
-                    <img src="image\poojacom new logo.png" alt="Bootstrap" width="300" height="200">
+                    <img src="images\future-water-high-resolution-logo-color-on-transparent-background.png"
+                        alt="Bootstrap" class="mt-5" width="250" height="70">
 
                 </div>
                 <!-- Grid column -->
@@ -57,16 +58,16 @@
                         Products
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Pooja Thali</a>
+                        <a href="#!" class="text-reset">Compostable Sambar Pouches</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Murti</a>
+                        <a href="#!" class="text-reset">Compostable Garbage Bags</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Pooja Temple</a>
+                        <a href="#!" class="text-reset">Compostable Grocery & Garment Bags</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Pooja Decoration</a>
+                        <a href="#!" class="text-reset">Compostable Carry Bags</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -78,16 +79,16 @@
                         Useful links
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Pricing</a>
+                        <a href="#!" class="text-reset">HOME</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Settings</a>
+                        <a href="#!" class="text-reset">ABOUT US</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Orders</a>
+                        <a href="#!" class="text-reset">PRODUCTS</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Help</a>
+                        <a href="#!" class="text-reset">CONTACT US</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -99,7 +100,7 @@
                     <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
                     <p>
                         <i class="fas fa-envelope me-3"></i>
-                        <a href="" class="">Pooja.co@gmail.com</a>
+                        <a href="" class="">.co@gmail.com</a>
                     </p>
                     <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
                     <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
@@ -113,8 +114,8 @@
 
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="index.php">Pooja.com</a>
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="index.php">FUTUR.E WATER</a>
     </div>
     <!-- Copyright -->
 </footer>

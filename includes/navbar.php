@@ -1,7 +1,7 @@
 <?php session_start(); ?>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color:white;">
     <div class="container">
-        <a class="navbar-brand" href="#">Web Zone</a>
+        <img src="images\future-water-high-resolution-logo-color-on-transparent-background.png" height="40px" alt="">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -14,23 +14,21 @@
                     <a class="nav-link text-black" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="#">About</a>
+                    <a class="nav-link text-black" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="#">Blog</a>
+                    <a class="nav-link text-black" href="#">Products</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="#">Contact</a>
+                    <a class="nav-link text-black" href="#">Contact Us</a>
                 </li>
             </ul>
         </div>
     </div>
     <?php if (!isset($_SESSION['auth'])): ?>
         <a class="btn btn-outline-primary" href="login.php" role="button">Login</a>
-        <a class="btn btn-primary mx-2" href="registration.php" role="button">Sign-up</a>
+        <a class="btn btn-primary mx-2" href="registration.php" role="button">Signup</a>
         <!-- Example split primary button -->
     <?php else: ?>
         <div class="btn-group">

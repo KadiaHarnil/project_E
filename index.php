@@ -35,7 +35,8 @@ include('includes/navbar.php');
 </div>
 
 <article class="postcard container-fluid w-30 ">
-    <a class="postcard__img_link" href="#">
+    <a class="postcard__img_link"
+        href="https://www.polystar.co.uk/news/seven-benefits-of-biodegradable-bags/#:~:text=As%20biodegradable%20products%20break%20down,will%20happen%20as%20a%20result.">
         <img class="postcard__img" height="400px" data-aos="fade-right" data-aos-offset="500"
             data-aos-easing="ease-in-sine" src="images\card images\img1.png" alt="Image Title" />
     </a>
@@ -67,7 +68,6 @@ include('includes/navbar.php');
     </div>
 </article>
 
-
 <article class="postcard container-fluid w-30 ">
     <div class="postcard__text mt-5">
         <h1 class="postcard__title yellow"><a href="#">2. Non-Toxic</a></h1>
@@ -89,14 +89,16 @@ include('includes/navbar.php');
             </div>
         </div>
     </div>
-    <a class="postcard__img_link" href="#">
+    <a class="postcard__img_link"
+        href="https://www.polystar.co.uk/news/seven-benefits-of-biodegradable-bags/#:~:text=As%20biodegradable%20products%20break%20down,will%20happen%20as%20a%20result.">
         <img class="postcard__img" height="400px" data-aos="fade-right" data-aos-offset="500"
             data-aos-easing="ease-in-sine" src="images\card images\img3.png" alt="Image Title" />
     </a>
 </article>
 
 <article class="postcard container-fluid w-30 ">
-    <a class="postcard__img_link" href="#">
+    <a class="postcard__img_link"
+        href="https://www.polystar.co.uk/news/seven-benefits-of-biodegradable-bags/#:~:text=As%20biodegradable%20products%20break%20down,will%20happen%20as%20a%20result.">
         <img class="postcard__img" height="400px" data-aos="fade-right" data-aos-offset="500"
             data-aos-easing="ease-in-sine" src="images\card images\recycle.png" alt="Image Title" />
     </a>
@@ -132,7 +134,8 @@ include('includes/navbar.php');
     <div class="d-flex justify-content-between align-items-center mb-3">
 
         <h2>Featured Products</h2>
-        <span class="custom-badge text-uppercase">Explore More</span>
+        <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Explore More<i
+                class="fa-solid fa-angles-right mx-1"></i></a>
 
     </div>
     <div class="row">
@@ -156,7 +159,7 @@ include('includes/navbar.php');
                     <span>Starting at:</span>
                     <span class="text-success"> Rs:150/-</span>
                 </div>
-                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Read More<i
+                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Explore More<i
                         class="fa-solid fa-angles-right mx-1"></i></a>
 
             </div>
@@ -167,16 +170,13 @@ include('includes/navbar.php');
             <div class="card">
 
                 <div class="d-flex justify-content-between align-items-center">
-
-
-
-                    <a href="#" class="badge badge-danger">10% off</a>
+                    <a href="#" class="badge badge-danger">15% off</a>
                 </div>
 
 
                 <div class="text-center">
 
-                    <img src="images\bags\bags1.png" width="250">
+                    <img src="images\bags\Carry Bags\main1.png" width="250">
                 </div>
 
                 <div class="text-center">
@@ -184,10 +184,8 @@ include('includes/navbar.php');
                     <span>Starting at:</span>
                     <span class="text-success">Rs:300/-</span>
                 </div>
-                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Read More<i
+                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Explore More<i
                         class="fa-solid fa-angles-right mx-1"></i></a>
-
-
             </div>
 
         </div>
@@ -208,9 +206,9 @@ include('includes/navbar.php');
 
                     <h5>Biodegredable cups</h5>
                     <span>Starting at:</span>
-                    <span class="text-success"> Rs:150/-</span>
+                    <span class="text-success"> Rs:120/-</span>
                 </div>
-                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Read More<i
+                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Explore More<i
                         class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
 
@@ -232,23 +230,19 @@ include('includes/navbar.php');
                             <h3>ABOUT ME</h3>
                         </div>
                         <p class="description-p text-muted pe-0 pe-lg-0">
-                        <h1>Hello</h1>everyone<span class="text-success">Future.E-water by NATURE</span>is here
-                        we are here to provide you all the.
+                        <h1>Hello</h1>everyone <h5><span class="text-success"> Future.E-water by NATURE </span></h5>is
+                        here
+                        we are here to change the world by providing all the biodegradable products.
                         </p>
-                        <p class="description-p text-muted pe-0 pe-lg-0">Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Natus quas optio reiciendis deleniti voluptatem facere.</p>
+                        <p class="description-p text-muted pe-0 pe-lg-0">Join us to change the world from the heart.</p>
                         <div class="sosmed-horizontal pt-3 pb-3">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="#"><i class="fa fa-facebook fa-2x mx-1"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-2x mx-1"></i></a>
+                            <a href="#"><i class="fa fa-pinterest fa-2x mx-1"></i></a>
                         </div>
-                        <style>
-                            .fa:hover {
-                                background-color: #3b71ca;
-                                color: white;
-                            }
-                        </style>
-                        <a href="#" class="btn rey-btn mt-3">See More</a>
+
+                        <a href="https://catchfoundation.in/say-no-to-single-use-plastic-bag/"
+                            class="btn rey-btn mt-3">See More</a>
                     </div>
                 </div>
             </div>
@@ -260,6 +254,10 @@ include('includes/navbar.php');
         </div>
     </div>
 </section>
+
+<a href="https://web.whatsapp.com/" class="float" target="_blank">
+    <i class="fa fa-whatsapp fa-x my-float"></i>
+</a>
 
 <?php
 include('includes/footer.php');
