@@ -11,7 +11,7 @@ $result = $con->query($qry);
             <?php while ($row = $result->fetch_assoc()) {
                 $img = "images/" . $row['pimg'];
                 ?>
-                <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
                         <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
                             data-mdb-ripple-color="light">

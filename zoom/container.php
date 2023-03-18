@@ -107,8 +107,6 @@
                                         </div>
                                         <hr>
                                         <p>
-                                            <button class="btn btn-round btn-outline-primary" type="button"><i
-                                                    class="fa fa-shopping-cart"></i>Buy Now</button>
 
                                             <button class="btn btn-round btn-outline-primary" type="button"><i
                                                     class="fa fa-shopping-cart"></i> Add to Cart</button>
