@@ -1,10 +1,13 @@
+<?php
+include("../admin/config/dbcon.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>jQuery picZoomer Plugin Demo</title>
+    <title>Product</title>
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/jquery-picZoomer.css">
@@ -54,6 +57,13 @@
         });
     </script>
 </head>
+<?php
+$id = $_GET['id'];
+$qry = "SELECT * FROM `image` WHERE pid='$id'";
+$qry1 = "select * from product where pid='$id'";
+$result = $con->query($qry);
+$result1 = $con->query($qry1);
+?>
 
 <body>
     <section class="intro">
@@ -63,7 +73,6 @@
                     <div class="col-12 col-xl-10">
                         <div class="card">
                             <div class="card-body p-5">
-
                                 <div class="row d-flex align-items-center">
                                     <div class="col-md-6 col-xl-7">
 
@@ -72,35 +81,47 @@
                                         </div>
 
                                         <div class="picZoomer mx-5">
-                                            <img src="images/bags1.png" height="320" width="320" alt="">
-                                        </div>
+                                            <?php while ($row = $result1->fetch_assoc()) {
+                                                $img1 = "../images/" . $row['pimg'];
+                                                ?>
+                                                <img src="<?= $img1; ?>" height="320" width="320" alt="">
+                                            </div>
+                                            <ul class="piclist mx-5">
 
-                                        <ul class="piclist mx-5">
-                                            <li><img src="images/bags1.png" alt=""></li>
-                                            <li><img src="images/1.jpg" alt=""></li>
-                                            <li><img src="images/2.jpg" alt=""></li>
-                                            <li><img src="images/3.jpg" alt=""></li>
-                                            <!-- <li><img src="images/4.jpg" alt=""></li>
-                                            <li><img src="images/5.jpg" alt=""></li>
-                                            <li><img src="images/6.jpg" alt=""></li>
-                                            <li><img src="images/7.jpg" alt=""></li>
-                                            <li><img src="images/8.jpg" alt=""></li> -->
+                                                <li><img src="<?= $img1; ?>" height="320" width="320" alt=""></li>
+                                            <?php }
+                                            ; ?>
+
+                                            <?php while ($row = $result->fetch_assoc()) {
+                                                $img = "../images/" . $row['iname'];
+                                                ?>
+                                                <li><img src="<?= $img; ?>" alt=""></li>
+                                            <?php }
+                                            ; ?>
                                         </ul>
 
                                     </div>
                                     <div class="col-md-6 col-xl-4 ">
+                                    <?php 
+                                    $qry2="select * from product where pid='$id'";
+                                    $result2=$con->query($qry2);
+                                    while ($row2 = $result2->fetch_assoc()) {
+                                               
+                                                ?>
+                                            <h2 class="fw-bold">
+                                                <?= $row2['pname']; ?>
+                                            </h2>
+                                            <?= $row2['pdetails']; ?>
 
-                                        <h2 class="fw-bold">Sambar Pouches</h2>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, saepe esse
-                                        exercitationem temporibus tempora perferendis a ducimus assumenda, optio nam
-                                        nulla, fugit vero minima reiciendis libero id ipsam quasi pariatur!
-
-
-                                        <hr>
-                                        <div class="m-bot15"> <strong>Price : </strong> <span class="amount-old"></span>
-                                            <span class="pro-price">Rs:200/-</span>
-                                        </div>
-                                        <hr>
+                                            <hr>
+                                            <div class="m-bot15"> <strong>Price : </strong> <span class="amount-old"></span>
+                                                <span class="pro-price">
+                                                    <?= $row2['pprice']; ?>
+                                                </span>
+                                            </div>
+                                            <hr>
+                                        <?php }
+                                        ; ?>
                                         <div class="form-group mb-2">
                                             <label>Quantity</label>
                                             <input type="quantiy" placeholder="1" class="form-control quantity">

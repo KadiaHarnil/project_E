@@ -6,10 +6,11 @@ $result = $con->query($qry);
 ?>
 <section style="background-color:whitesmoke;">
     <div class="text-center container py-5">
-        <h1 class="mt-4 mb-5"><strong>Categories</strong></h1>
+        <h1 class="mt-4 mb-5"><strong>Products</strong></h1>
         <div class="row">
             <?php while ($row = $result->fetch_assoc()) {
                 $img = "images/" . $row['pimg'];
+                $id = $row['pid'];
                 ?>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
@@ -37,9 +38,11 @@ $result = $con->query($qry);
                             <h6 class="mb-3">
                                 <?= $row['pprice']; ?>/-
                             </h6>
-                            <div class="d-grid gap-2 col-6 mx-auto">
-                                <button class="btn btn-primary" type="button">Explore Now</button>
-                            </div>
+                            <form action="" method="post">
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                <a class="btn btn-primary" href="zoom/explore.php?id=<?=$id;?>" role="submit">Explore</a>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
