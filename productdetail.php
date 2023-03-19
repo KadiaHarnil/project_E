@@ -1,12 +1,13 @@
 <?php
 include('includes/header.php');
+include('includes/navbar.php');
 include('admin/config/dbcon.php');
 $qry = "select * from product";
 $result = $con->query($qry);
 ?>
 <section style="background-color:whitesmoke;">
     <div class="text-center container py-5">
-        <h1 class="mt-4 mb-5"><strong>Products</strong></h1>
+        <h1 class="mt-5 mb-5"><strong>Products</strong></h1>
         <div class="row">
             <?php while ($row = $result->fetch_assoc()) {
                 $img = "images/" . $row['pimg'];
