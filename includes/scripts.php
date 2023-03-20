@@ -40,29 +40,25 @@
 <script>
     AOS.init();
 </script>
-<script>
-    $(document).ready(function () {
-
-        $('.radio-group .radio').click(function () {
-            $('.radio').addClass('gray');
-            $(this).removeClass('gray');
-        });
-
-        $('.plus-minus .plus').click(function () {
-            var count = $(this).parent().prev().text();
-            $(this).parent().prev().html(Number(count) + 1);
-        });
-
-        $('.plus-minus .minus').click(function () {
-            var count = $(this).parent().prev().text();
-            $(this).parent().prev().html(Number(count) - 1);
-        });
-
-    });
-</script>
+<!-- <script>
+    var gt = 0;
+    var  iprice=document.getElementsByClassName('iprice');
+    var iquantity=document.getElementsByClassName('iquantity');
+    var itotal=document.getElementsByClassName('itotal');
+    var gtotal=document.getElementsByClassName('gtotal');
+    function subTotal() {
+        gt=0;
+        for (i = 0; i < iprice.length; i++) {
+            itotal[i].innerText = (iprice[i].value) * (iquantity[i].value);
+            gt=gt+(iprice[i].value) * (iquantity[i].value);
+        }
+        gtotal.innerText=gt;
+    }
+    subTotal();
+</script> -->
 <!-- owl carousel -->
-<script src=" owl_carousel/owl.carousel.js"></script>
-<script src="script.js"></script>
+<!-- <script src=" owl_carousel/owl.carousel.js"></script> -->
+<!-- <script src="assest/script.js"></script> -->
 </body>
 
 </html>

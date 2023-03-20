@@ -17,13 +17,19 @@
                     <a class="nav-link text-black" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="#">Products</a>
+                    <a class="nav-link text-black" href="productdetail.php">Products</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link text-black" href="#">Contact Us</a>
                 </li>
             </ul>
+            <a href="addtocart.php">
+                <i class="fas fa-shopping-cart fa-lg"></i>
+                <?php if(isset($_SESSION['cart'])){?>
+                <span class="badge rounded-pill badge-notification bg-danger"><?= count($_SESSION['cart']);?></span>
+                <?php } ?>
+            </a>
         </div>
     </div>
     <?php if (!isset($_SESSION['auth'])): ?>

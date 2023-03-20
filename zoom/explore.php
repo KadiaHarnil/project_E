@@ -102,12 +102,11 @@ $result1 = $con->query($qry1);
 
                                     </div>
                                     <div class="col-md-6 col-xl-4 ">
-                                    <?php 
-                                    $qry2="select * from product where pid='$id'";
-                                    $result2=$con->query($qry2);
-                                    while ($row2 = $result2->fetch_assoc()) {
-                                               
-                                                ?>
+                                        <?php
+                                        $qry2 = "select * from product where pid='$id'";
+                                        $result2 = $con->query($qry2);
+                                        while ($row2 = $result2->fetch_assoc()) { ?>
+
                                             <h2 class="fw-bold">
                                                 <?= $row2['pname']; ?>
                                             </h2>
@@ -120,18 +119,23 @@ $result1 = $con->query($qry1);
                                                 </span>
                                             </div>
                                             <hr>
+                                            <form action="../cart.php" method="post">
+                                                <input type="hidden" name="txtid" value="<?= $row2['pid']; ?>">
+                                                <input type="hidden" name="txtname" value="<?= $row2['pname']; ?>">
+                                                <input type="hidden" name="txtprice" value="<?= $row2['pprice']; ?>">
+                                                <input type="hidden" name="txtimg" value="<?= $row2['pimg']; ?>">
+                                                <label>Quantity</label>
+                                                <input type="quantiy" class="form-control quantity" name="txtqty">
+                                                <button class="btn btn-round btn-outline-primary mt-3" name="addtocart"
+                                                    type="submit"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                                            </form>
                                         <?php }
                                         ; ?>
-                                        <div class="form-group mb-2">
-                                            <label>Quantity</label>
-                                            <input type="quantiy" placeholder="1" class="form-control quantity">
-                                        </div>
-                                        <hr>
-                                        <p>
 
-                                            <button class="btn btn-round btn-outline-primary" type="button"><i
-                                                    class="fa fa-shopping-cart"></i> Add to Cart</button>
-                                        </p>
+
+
+
+
                                         <style>
                                             .btn:hover {
                                                 background-color: #3b71ca;
