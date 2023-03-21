@@ -125,7 +125,7 @@ $result1 = $con->query($qry1);
                                                 <input type="hidden" name="txtprice" value="<?= $row2['pprice']; ?>">
                                                 <input type="hidden" name="txtimg" value="<?= $row2['pimg']; ?>">
                                                 <label>Quantity</label>
-                                                <input type="quantiy" class="form-control quantity" name="txtqty">
+                                                <input type="quantiy" class="form-control quantity" value="1" name="txtqty">
                                                 <button class="btn btn-round btn-outline-primary mt-3" name="addtocart"
                                                     type="submit"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
                                             </form>

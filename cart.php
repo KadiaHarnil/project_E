@@ -41,10 +41,10 @@ if (isset($_POST['delete'])) {
         }
     }
 }
-if (isset($_POST['txtqty'])) {
+if (isset($_POST['txtqty1'])) {
     foreach ($_SESSION['cart'] as $key => $value) {
         if ($value['name'] == $_POST['txtname']) {
-            $_SESSION['cart'][$key]['quantity'] = $_POST['txtqty'];
+            $_SESSION['cart'][$key]['quantity'] = $_POST['txtqty1'];
             print_r($_SESSION['cart']);
             header("location:addtocart.php");
         }

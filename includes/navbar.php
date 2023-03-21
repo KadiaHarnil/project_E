@@ -1,4 +1,9 @@
-<?php session_start(); ?>
+<?php session_start(); 
+if(isset($_SESSION['auth_id'])){
+    $id= $_SESSION['auth_id'];
+    echo $id;
+}
+?>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color:white;">
     <div class="container">
         <img src="images\future-water-high-resolution-logo-color-on-transparent-background.png" height="40px" alt="">
@@ -39,7 +44,7 @@
     <?php else: ?>
         <div class="btn-group">
             <button type="button" class="btn btn-outline-primary">
-                <?= $_SESSION['auth_user']; ?>
+                <?php echo $_SESSION['auth_user'];?>
             </button>
             <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
                 data-mdb-toggle="dropdown" aria-expanded="false">
@@ -47,7 +52,7 @@
             </button>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Your Order</a></li>
+                <li><a class="dropdown-item" href="orderdetails.php">Your Order</a></li>
                 <li>
                     <hr class="dropdown-divider" />
                 </li>
