@@ -90,14 +90,14 @@ $result1 = $con->query($qry1);
 
                                                 <li><img src="<?= $img1; ?>" height="320" width="320" alt=""></li>
                                             <?php }
-                                            ; ?>
+                                            ?>
 
                                             <?php while ($row = $result->fetch_assoc()) {
                                                 $img = "../images/" . $row['iname'];
                                                 ?>
                                                 <li><img src="<?= $img; ?>" alt=""></li>
                                             <?php }
-                                            ; ?>
+                                            ?>
                                         </ul>
 
                                     </div>

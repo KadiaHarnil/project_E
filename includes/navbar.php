@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color:white;">
     <div class="container">
-        <img src="images\future-water-high-resolution-logo-color-on-transparent-background.png" height="40px" alt="">
+        <img src="images\logo1.png" height="40px" alt="">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -14,7 +14,7 @@
                     <a class="nav-link text-black" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="#">About Us</a>
+                    <a class="nav-link text-black" href="#about-section">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-black" href="productdetail.php">Products</a>
@@ -26,8 +26,10 @@
             </ul>
             <a href="addtocart.php">
                 <i class="fas fa-shopping-cart fa-lg"></i>
-                <?php if(isset($_SESSION['cart'])){?>
-                <span class="badge rounded-pill badge-notification bg-danger"><?= count($_SESSION['cart']);?></span>
+                <?php if (isset($_SESSION['cart'])) { ?>
+                    <span class="badge rounded-pill badge-notification bg-danger">
+                        <?= count($_SESSION['cart']); ?>
+                    </span>
                 <?php } ?>
             </a>
         </div>
@@ -46,7 +48,7 @@
                 <span class="visually-hidden">Toggle Dropdown</span>
             </button>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="profile.php">Profile</a></li>
                 <li><a class="dropdown-item" href="#">Your Order</a></li>
                 <li>
                     <hr class="dropdown-divider" />

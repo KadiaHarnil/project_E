@@ -35,7 +35,7 @@ include('includes/navbar.php');
     </button>
 </div>
 <div class="text-center m-3">
-    <h1 class="mt-3">Why Biodegredable?</h1>
+    <h1 class="mt-3" data-aos="fade-down" data-aos-offset="500">Why Biodegredable?</h1>
 
 </div>
 
@@ -133,7 +133,6 @@ include('includes/navbar.php');
 </article>
 
 
-
 <div class="container mt-4 mb-4">
 
     <div class="d-flex justify-content-between align-items-center mb-3">
@@ -199,9 +198,7 @@ include('includes/navbar.php');
 
             <div class="card">
 
-                <div class="d-flex justify-content-between align-items-center">
-
-
+                <div class="d-flex justify-content-between align-items-center">33 `
                     <a href="#" class="badge badge-danger">10% off</a>
                 </div>
                 <div class="text-center">
@@ -230,15 +227,19 @@ include('includes/navbar.php');
         <div class="row">
             <div class="col-lg-6 align-items-center justify-content-left d-flex mb-5 mb-lg-0">
                 <div class="blockabout">
-                    <div class="blockabout-inner text-center text-sm-start">
+                    <div class="blockabout-inner text-center text-sm-start" data-aos="fade-right" data-aos-offset="500"
+                        data-aos-easing="ease-in-sine">
                         <div class="title-big pb-3 mb-3">
                             <h3>ABOUT ME</h3>
                         </div>
+
                         <p class="description-p text-muted pe-0 pe-lg-0">
-                        <h1>Hello</h1>everyone <h5><span class="text-success"> Future.E-water by NATURE </span></h5>is
+                        <h1>Hello</h1>everyone <h5><span class="text-success"> Future.E-water by NATURE </span></h5>
+                        is
                         here
                         we are here to change the world by providing all the biodegradable products.
                         </p>
+
                         <p class="description-p text-muted pe-0 pe-lg-0">Join us to change the world from the heart.</p>
                         <div class="sosmed-horizontal pt-3 pb-3">
                             <a href="#"><i class="fa fa-facebook fa-2x mx-1"></i></a>
@@ -251,7 +252,7 @@ include('includes/navbar.php');
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="col-lg-6 mt-5 mt-lg-0" data-aos="flip-up" data-aos-offset="500">
                 <figure class="potoaboutwrap">
                     <img src="images\poster\contentpick.jpg" alt="potoabout" />
                 </figure>
