@@ -1,21 +1,22 @@
 <div class="dlabnav">
     <div class="dlabnav-scroll">
         <ul class="metismenu" id="menu">
-            <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
+            <li><a href="javascript:void()" href="index.php">
                     <i class="fas fa-home"></i>
                     <span class="nav-text">Dashboard</span>
                 </a>
+
+            </li>
+            <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
+                    <i class="fas fa-table"></i>
+                    <span class="nav-text">Details</span>
+                </a>
                 <ul aria-expanded="false">
-                    <li><a href="index.html">Dashboard Light</a></li>
-                    <li><a href="index-2.html">Dashboard Dark</a></li>
-                    <li><a href="project-page.html">Project</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                    <li><a href="kanban.html">Kanban</a></li>
-                    <li><a href="calendar-page.html">Calendar</a></li>
-                    <li><a href="message.html">Messages</a></li>
+                    <li><a href="productdetail.php">Products</a></li>
                 </ul>
 
             </li>
+<<<<<<< HEAD
 
             <div class="side-bar-profile">
                 <div class="d-flex align-items-center justify-content-left mb-3">
@@ -28,6 +29,24 @@
                             <?= $_SESSION['auth1_user']; ?>
                         </h2>
                     </div>
+=======
+        </ul>
+        <div class="side-bar-profile">
+            <div class="d-flex align-items-center justify-content-left mb-3">
+                <div class="side-bar-profile-img">
+                    <img src="<?= 'images/avatar/' . $_SESSION['auth1_img']; ?>" alt="">
+                </div>
+                <div class="profile-info1">
+                    <h4 class="fs-18 font-w500">Welcome</h4>
+                    <h2>
+                        <?= $_SESSION['auth1_user']; ?>
+                    </h2>
+                </div>
+
+            </div>
+
+        </div>
+>>>>>>> e8cdb0a602a866881859c8954c775b96342b8ef5
 
                 </div>
 

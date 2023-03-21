@@ -1,4 +1,9 @@
-<?php session_start(); ?>
+<?php session_start(); 
+if(isset($_SESSION['auth_id'])){
+    $id= $_SESSION['auth_id'];
+    echo $id;
+}
+?>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color:white;">
     <div class="container">
         <img src="images\logo1.png" height="40px" alt="">
@@ -41,15 +46,20 @@
     <?php else: ?>
         <div class="btn-group">
             <button type="button" class="btn btn-outline-primary">
-                <?= $_SESSION['auth_user']; ?>
+                <?php echo $_SESSION['auth_user'];?>
             </button>
             <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
                 data-mdb-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
             </button>
             <ul class="dropdown-menu">
+<<<<<<< HEAD
                 <li><a class="dropdown-item" href="profile.php">Profile</a></li>
                 <li><a class="dropdown-item" href="#">Your Order</a></li>
+=======
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="orderdetails.php">Your Order</a></li>
+>>>>>>> e8cdb0a602a866881859c8954c775b96342b8ef5
                 <li>
                     <hr class="dropdown-divider" />
                 </li>

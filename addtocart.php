@@ -41,9 +41,10 @@ include("includes/navbar.php");
                                     </td>
                                     <td>
                                         <form action="cart.php" method="post">
-                                            <span class="badge badge-primary"> 
-                                                <input type="number" class="iquantity" name="txtqty"  onchange="this.form.submit()" value="<?= $value['quantity']; ?>">
-                                                <input type="hidden" name="txtname"  value="<?= $value['name']; ?>">
+                                            <span class="badge badge-primary">
+                                                <input type="number" class="iquantity" name="txtqty1"
+                                                    onchange="this.form.submit()" value="<?= $value['quantity']; ?>">
+                                                <input type="hidden" name="txtname" value="<?= $value['name']; ?>">
 
                                             </span>
                                         </form>
@@ -74,16 +75,62 @@ include("includes/navbar.php");
             <div class="card">
                 <div class="row">
                     <div class="col-lg-4 mt-2">
-                        <div class="row d-flex justify-content-between px-4">
-                            <p class="mb-1 text-left">Subtotal</p>
-                            <h6 class="mb-1 text-right" id="gtotal"></h6>
-                        </div>
-                        <button class="btn-block btn-blue">
+                        <form action="" method="post">
+                            <div class="row d-flex justify-content-between px-4">
+                                <p class="mb-1 text-left">Subtotal</p>
+                                <h6 class="mb-1 text-right" id="gtotal"></h6>
+                            </div>
+                        </form>
+                        <!-- <button class="btn-block btn-blue">
                             <span>
                                 <span id="checkout">Checkout</span>
                             </span>
-                        </button>
+                        </button> -->
                     </div>
+                    <?php if (isset($_SESSION['auth'])): ?>
+                        <div class="col-lg-5">
+                            <!-- <input type="text" value="<?= $_SESSION['auth_user'] ;?>"> -->
+                            <?php 
+
+                            $count=count($_SESSION['cart']);
+                            if (isset($_SESSION['cart']) && $count>0): ?>
+                                <form action="order.php" method="post">
+                                    <div class="mb-3">
+                                        <div class="form-outline">
+                                            <input type="text" id="typeText" name="txtname" class="form-control" required />
+                                            <label class="form-label" for="typeText">Full Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="form-outline">
+                                            <textarea class="form-control" id="textAreaExample" name="txtadd" rows="4"
+                                                required></textarea>
+                                            <label class="form-label" for="textAreaExample">Address</label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="form-outline">
+                                            <input type="text" id="typeText" name="txtpin" class="form-control" required />
+                                            <label class="form-label" for="typeText">Pincode</label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <select class="form-select" name="txtsel" aria-label="Default select example">
+                                            <option selected>Select Payment Method</option>
+                                            <option value="COD">COD</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" name="btncheckout">Checkout</button>
+                                </form>
+                            <?php else: ?>
+                                <h6>Add item To cart</h6>
+                               
+                            <?php endif; ?>
+
+                        </div>
+                    <?php else: ?>
+                        <h6>Please <a href="login.php">Login</a> to Checkout...</h6>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
