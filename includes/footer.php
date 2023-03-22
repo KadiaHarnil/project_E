@@ -11,16 +11,16 @@
         <!-- Right -->
         <div>
             <a class="btn text-white btn-lg btn-floating" style="background-color: #3571d3; p-1"
-                href="https://www.instagram.com/" role="button">
+                href="https://www.instagram.com" role="button">
                 <i class="fab fa-instagram"></i>
             </a>
 
             <a class="btn text-white btn-lg btn-floating" style="background-color: #3571d3; p-1"
-                href="https://twitter.com/?lang=en" role="button">
+                href="https://twitter.com/?logout=1679419687978" role="button">
                 <i class="fab fa-twitter"></i>
             </a>
             <a class="btn text-white btn-lg btn-floating" style="background-color: #3571d3; p-1"
-                href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804944%7Cb%7Cfacebook%20%27%7C&placement=&creative=550525804944&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D9050486%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiAgOefBhDgARIsAMhqXA4e2WMuIoXxvQ4VamMozKaagXezxjybGX8wsKe9FKE1Umf4N-B5SE0aAtMhEALw_wcB"
+                href="https://www.facebook.com/?stype=lo&jlou=Aff-jKVRY9KlLOtk-NPkAv7Td9l7WVa2DAOry7GDffaHBXXIU-zg-UePEJ9o4IwrVJ1op0IoAOqobSS8wYmJ543y9wsON-8-oPMjW3o3vzvz3Q&smuh=57377&lh=Ac_2QPtTNk5ZjwsnksE"
                 role="button">
                 <i class="fab fa-facebook"></i>
             </a>
@@ -78,16 +78,16 @@
                         Useful links
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">HOME</a>
+                        <a href="#" class="text-reset">HOME</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">ABOUT US</a>
+                        <a href="#about-section" class="text-reset">ABOUT US</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">PRODUCTS</a>
+                        <a href="#featured-products" class="text-reset">PRODUCTS</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">CONTACT US</a>
+                        <a href="contactus.php" class="text-reset">CONTACT US</a>
                     </p>
                 </div>
                 <!-- Grid column -->

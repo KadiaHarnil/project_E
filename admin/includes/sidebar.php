@@ -16,20 +16,6 @@
                 </ul>
 
             </li>
-<<<<<<< HEAD
-
-            <div class="side-bar-profile">
-                <div class="d-flex align-items-center justify-content-left mb-3">
-                    <div class="side-bar-profile-img">
-                        <img src="<?= 'images/avatar/' . $_SESSION['auth1_img']; ?>" alt="">
-                    </div>
-                    <div class="profile-info1">
-                        <h4 class="fs-18 font-w500">Welcome</h4>
-                        <h2>
-                            <?= $_SESSION['auth1_user']; ?>
-                        </h2>
-                    </div>
-=======
         </ul>
         <div class="side-bar-profile">
             <div class="d-flex align-items-center justify-content-left mb-3">
@@ -46,15 +32,14 @@
             </div>
 
         </div>
->>>>>>> e8cdb0a602a866881859c8954c775b96342b8ef5
 
-                </div>
-
-            </div>
-
-            <div class="copyright">
-                <p><strong>Fillow Saas Admin</strong> © 2021 All Rights Reserved</p>
-                <p class="fs-12">Made with <span class="heart"></span>
-            </div>
     </div>
+
+</div>
+
+<div class="copyright">
+    <p><strong>Fillow Saas Admin</strong> © 2021 All Rights Reserved</p>
+    <p class="fs-12">Made with <span class="heart"></span>
+</div>
+</div>
 </div>

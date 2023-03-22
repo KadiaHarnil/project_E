@@ -46,7 +46,7 @@ include('includes/navbar.php');
             data-aos-easing="ease-in-sine" src="images\card images\img1.png" alt="Image Title" />
     </a>
     <div class="postcard__text mt-5">
-        <h1 class="postcard__title yellow"><a href="#">1. Repurposing & Recycling </a></h1>
+        <h1 class="postcard__title yellow" data-aos="fade-left"><a href="#">1. Repurposing & Recycling </a></h1>
 
 
         <div class="postcard__preview-txt" style="color:black; letter-spacing: 2px;" data-aos="fade-left"
@@ -63,8 +63,9 @@ include('includes/navbar.php');
             can leak toxic, dangerous chemicals that may leak after the first use.
 
             <div class="mt-3">
-                <a class="btn btn-outline-primary" href="login.php" role="button">Read More<i
-                        class="fa-solid fa-angles-right mx-1"></i></a>
+                <a class="btn btn-outline-primary"
+                    href="https://www.polystar.co.uk/news/seven-benefits-of-biodegradable-bags/#:~:text=As%20biodegradable%20products%20break%20down,will%20happen%20as%20a%20result."
+                    role="button">Read More<i class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
 
         </div>
@@ -75,7 +76,7 @@ include('includes/navbar.php');
 
 <article class="postcard container-fluid w-30 ">
     <div class="postcard__text mt-5">
-        <h1 class="postcard__title yellow"><a href="#">2. Non-Toxic</a></h1>
+        <h1 class="postcard__title yellow" data-aos="fade-right"><a href="#">2. Non-Toxic</a></h1>
         <div class="postcard__preview-txt" style="color:black; letter-spacing: 2px;" data-aos="fade-left"
             data-aos-anchor="#example-anchor" data-aos-offset="1500" data-aos-duration="900">Biodegradable bags are made
             from natural materials which means that they are safer for users.
@@ -89,8 +90,9 @@ include('includes/navbar.php');
             They are safe and don’t release toxins during their breakdown process. They are absorbed by the soil.
 
             <div class="mt-3">
-                <a class="btn btn-outline-primary" href="login.php" role="button">Read More<i
-                        class="fa-solid fa-angles-right mx-1"></i></a>
+                <a class="btn btn-outline-primary"
+                    href="https://www.polystar.co.uk/news/seven-benefits-of-biodegradable-bags/#:~:text=As%20biodegradable%20products%20break%20down,will%20happen%20as%20a%20result."
+                    role="button">Read More<i class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
         </div>
     </div>
@@ -108,10 +110,10 @@ include('includes/navbar.php');
             data-aos-easing="ease-in-sine" src="images\card images\recycle.png" alt="Image Title" />
     </a>
     <div class="postcard__text mt-5">
-        <h1 class="postcard__title yellow"><a href="#">3. Less Petroleum</a></h1>
+        <h1 class="postcard__title yellow" data-aos="fade-left"><a href="#">3. Less Petroleum</a></h1>
 
         <div class="postcard__preview-txt" style="color:black; letter-spacing: 2px;" data-aos="fade-left"
-            data-aos-anchor="#example-anchor" data-aos-offset="1500" data-aos-duration="900">Biodegradable plastics also
+            data-aos-anchor="#example-anchor" data-aos-offset="800" data-aos-duration="800">Biodegradable plastics also
             minimises the use of petroleum supplies. Traditional plastic is manufactured by oil molecules being heated
             and treated to convert into polymers.
 
@@ -125,21 +127,22 @@ include('includes/navbar.php');
             while simultaneously using far less energy.
 
             <div class="mt-3">
-                <a class="btn btn-outline-primary" href="login.php" role="button">Read More<i
-                        class="fa-solid fa-angles-right mx-1"></i></a>
+                <a class="btn btn-outline-primary"
+                    href="https://www.polystar.co.uk/news/seven-benefits-of-biodegradable-bags/#:~:text=As%20biodegradable%20products%20break%20down,will%20happen%20as%20a%20result."
+                    role="button">Read More<i class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
         </div>
     </div>
 </article>
 
 
-<div class="container mt-4 mb-4">
+<div class="container mt-4 mb-4" id="featured-products">
 
     <div class="d-flex justify-content-between align-items-center mb-3">
 
-        <h2>Featured Products</h2>
-        <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Explore More<i
-                class="fa-solid fa-angles-right mx-1"></i></a>
+        <h2 data-aos="fade-right" data-aos-offset="400">Featured Products</h2>
+        <a class="btn btn-outline-primary mt-2" href="login.php" role="button" data-aos="fade-left"
+            data-aos-offset="400">Explore More<i class="fa-solid fa-angles-right mx-1"></i></a>
 
     </div>
     <div class="row">
@@ -227,7 +230,7 @@ include('includes/navbar.php');
         <div class="row">
             <div class="col-lg-6 align-items-center justify-content-left d-flex mb-5 mb-lg-0">
                 <div class="blockabout">
-                    <div class="blockabout-inner text-center text-sm-start" data-aos="fade-right" data-aos-offset="500"
+                    <div class="blockabout-inner text-center text-sm-start" data-aos="fade-right" data-aos-offset="400"
                         data-aos-easing="ease-in-sine">
                         <div class="title-big pb-3 mb-3">
                             <h3>ABOUT ME</h3>
@@ -242,9 +245,9 @@ include('includes/navbar.php');
 
                         <p class="description-p text-muted pe-0 pe-lg-0">Join us to change the world from the heart.</p>
                         <div class="sosmed-horizontal pt-3 pb-3">
-                            <a href="#"><i class="fa fa-facebook fa-2x mx-1"></i></a>
-                            <a href="#"><i class="fa fa-instagram fa-2x mx-1"></i></a>
-                            <a href="#"><i class="fa fa-pinterest fa-2x mx-1"></i></a>
+                            <a href="www.facebook.com"><i class="fa fa-facebook fa-2x mx-1"></i></a>
+                            <a href="www.instagram.com"><i class="fa fa-instagram fa-2x mx-1"></i></a>
+                            <a href="www.pinterest.com"><i class="fa fa-pinterest fa-2x mx-1"></i></a>
                         </div>
 
                         <a href="https://catchfoundation.in/say-no-to-single-use-plastic-bag/"

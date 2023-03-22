@@ -1,6 +1,6 @@
-<?php session_start(); 
-if(isset($_SESSION['auth_id'])){
-    $id= $_SESSION['auth_id'];
+<?php session_start();
+if (isset($_SESSION['auth_id'])) {
+    $id = $_SESSION['auth_id'];
     echo $id;
 }
 ?>
@@ -26,7 +26,7 @@ if(isset($_SESSION['auth_id'])){
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="#">Contact Us</a>
+                    <a class="nav-link text-black" href="contactus.php">Contact Us</a>
                 </li>
             </ul>
             <a href="addtocart.php">
@@ -46,20 +46,15 @@ if(isset($_SESSION['auth_id'])){
     <?php else: ?>
         <div class="btn-group">
             <button type="button" class="btn btn-outline-primary">
-                <?php echo $_SESSION['auth_user'];?>
+                <?php echo $_SESSION['auth_user']; ?>
             </button>
             <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
                 data-mdb-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
             </button>
             <ul class="dropdown-menu">
-<<<<<<< HEAD
-                <li><a class="dropdown-item" href="profile.php">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Your Order</a></li>
-=======
                 <li><a class="dropdown-item" href="#">Profile</a></li>
                 <li><a class="dropdown-item" href="orderdetails.php">Your Order</a></li>
->>>>>>> e8cdb0a602a866881859c8954c775b96342b8ef5
                 <li>
                     <hr class="dropdown-divider" />
                 </li>

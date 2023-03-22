@@ -16,7 +16,7 @@ if (isset($_POST['addtocart'])) {
                 'image' => $_POST['txtimg'],
                 'name' => $_POST['txtname'],
                 'price' => (int) $_POST['txtprice'],
-                'quantity' => (int) $_POST['txtqty']
+                '   ' => (int) $_POST['txtqty']
             );
             header("location:productdetail.php");
         }

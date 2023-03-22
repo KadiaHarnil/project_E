@@ -55,8 +55,7 @@ include("includes/header.php");
                                     </div>
                                     <div class="">
                                         <h6 class="font-weight-medium">Address</h6>
-                                        <p class="">601 Sherwood Ave.
-                                            <br> San Bernandino
+                                        <p class="">Ahmedabad,3-Raju Complex,Gujarat
                                         </p>
                                     </div>
                                 </div>
@@ -68,8 +67,7 @@ include("includes/header.php");
                                     </div>
                                     <div class="">
                                         <h6 class="font-weight-medium">Phone</h6>
-                                        <p class="">251 546 9442
-                                            <br> 630 446 8851
+                                        <p class="">+ 91 635 622 61 <br> + 01 234 567 89
                                         </p>
                                     </div>
                                 </div>
@@ -77,14 +75,12 @@ include("includes/header.php");
                             <div class="col-lg-4 col-md-4">
                                 <div class="card-body d-flex align-items-center c-detail">
                                     <div class="mr-3 align-self-center">
-                                        <img
-                                            src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon3.png">
+                                        <i class="fas fa-envelope fa-4x mx-2"></i>
                                     </div>
                                     <div class="">
                                         <h6 class="font-weight-medium">Email</h6>
                                         <p class="">
-                                            info@wrappixel.com
-                                            <br> 123@wrappixel.com
+                                            future.ewater@gmail.com
                                         </p>
                                     </div>
                                 </div>
