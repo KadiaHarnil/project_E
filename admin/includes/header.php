@@ -31,6 +31,7 @@
 <!-- DataTables -->
     <!-- Style css -->
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </head>
 
