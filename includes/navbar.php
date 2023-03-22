@@ -53,13 +53,8 @@ if(isset($_SESSION['auth_id'])){
                 <span class="visually-hidden">Toggle Dropdown</span>
             </button>
             <ul class="dropdown-menu">
-<<<<<<< HEAD
-                <li><a class="dropdown-item" href="profile.php">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Your Order</a></li>
-=======
                 <li><a class="dropdown-item" href="#">Profile</a></li>
                 <li><a class="dropdown-item" href="orderdetails.php">Your Order</a></li>
->>>>>>> e8cdb0a602a866881859c8954c775b96342b8ef5
                 <li>
                     <hr class="dropdown-divider" />
                 </li>

@@ -1,7 +1,7 @@
 <div class="dlabnav">
     <div class="dlabnav-scroll">
         <ul class="metismenu" id="menu">
-            <li><a href="javascript:void()" href="index.php">
+            <li><a href="index.php">
                     <i class="fas fa-home"></i>
                     <span class="nav-text">Dashboard</span>
                 </a>
@@ -13,23 +13,10 @@
                 </a>
                 <ul aria-expanded="false">
                     <li><a href="productdetail.php">Products</a></li>
+                    <li><a href="user.php">User Details</a></li>
+                    <li><a href="order.php">Orders</a></li>
                 </ul>
-
             </li>
-<<<<<<< HEAD
-
-            <div class="side-bar-profile">
-                <div class="d-flex align-items-center justify-content-left mb-3">
-                    <div class="side-bar-profile-img">
-                        <img src="<?= 'images/avatar/' . $_SESSION['auth1_img']; ?>" alt="">
-                    </div>
-                    <div class="profile-info1">
-                        <h4 class="fs-18 font-w500">Welcome</h4>
-                        <h2>
-                            <?= $_SESSION['auth1_user']; ?>
-                        </h2>
-                    </div>
-=======
         </ul>
         <div class="side-bar-profile">
             <div class="d-flex align-items-center justify-content-left mb-3">
@@ -42,19 +29,14 @@
                         <?= $_SESSION['auth1_user']; ?>
                     </h2>
                 </div>
-
             </div>
-
-        </div>
->>>>>>> e8cdb0a602a866881859c8954c775b96342b8ef5
-
-                </div>
-
-            </div>
-
             <div class="copyright">
                 <p><strong>Fillow Saas Admin</strong> © 2021 All Rights Reserved</p>
                 <p class="fs-12">Made with <span class="heart"></span>
             </div>
+
+        </div>
+
     </div>
+
 </div>

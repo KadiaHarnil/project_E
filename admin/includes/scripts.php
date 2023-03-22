@@ -72,6 +72,11 @@
     });
 
 </script>
+<script>
+    function mydelete() {
+        confirm("Are you Sure....");
+    }
+</script>
 
 </body>
 
