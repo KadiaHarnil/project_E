@@ -16,7 +16,7 @@ if (isset($_SESSION['auth_id'])) {
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="#">Home</a>
+                    <a class="nav-link text-black" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-black" href="#about-section">About Us</a>

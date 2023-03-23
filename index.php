@@ -141,8 +141,9 @@ include('includes/navbar.php');
     <div class="d-flex justify-content-between align-items-center mb-3">
 
         <h2 data-aos="fade-right" data-aos-offset="400">Featured Products</h2>
-        <a class="btn btn-outline-primary mt-2" href="login.php" role="button" data-aos="fade-left"
-            data-aos-offset="400">Explore More<i class="fa-solid fa-angles-right mx-1"></i></a>
+        <a class="btn btn-outline-primary mt-2" href="productdetail.php" role="button" data-aos="fade-left"
+            data-aos-offset="400">Explore
+            More<i class="fa-solid fa-angles-right mx-1"></i></a>
 
     </div>
     <div class="row">
@@ -166,7 +167,7 @@ include('includes/navbar.php');
                     <span>Starting at:</span>
                     <span class="text-success"> Rs:150/-</span>
                 </div>
-                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Explore More<i
+                <a class="btn btn-outline-primary mt-2" href="productdetail.php" role="button">Explore More<i
                         class="fa-solid fa-angles-right mx-1"></i></a>
 
             </div>
@@ -191,7 +192,7 @@ include('includes/navbar.php');
                     <span>Starting at:</span>
                     <span class="text-success">Rs:300/-</span>
                 </div>
-                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Explore More<i
+                <a class="btn btn-outline-primary mt-2" href="productdetail.php" role="button">Explore More<i
                         class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
 
@@ -213,7 +214,7 @@ include('includes/navbar.php');
                     <span>Starting at:</span>
                     <span class="text-success"> Rs:120/-</span>
                 </div>
-                <a class="btn btn-outline-primary mt-2" href="login.php" role="button">Explore More<i
+                <a class="btn btn-outline-primary mt-2" href="productdetail.php" role="button">Explore More<i
                         class="fa-solid fa-angles-right mx-1"></i></a>
             </div>
 
