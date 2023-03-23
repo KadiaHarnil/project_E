@@ -92,8 +92,8 @@ include("includes/navbar.php");
                             <!-- <input type="text" value="<?= $_SESSION['auth_user'] ;?>"> -->
                             <?php 
 
-                            $count=count($_SESSION['cart']);
-                            if (isset($_SESSION['cart']) && $count>0): ?>
+                            
+                            if (isset($_SESSION['cart']) && count($_SESSION['cart'])>0): ?>
                                 <form action="order.php" method="post">
                                     <div class="mb-3">
                                         <div class="form-outline">

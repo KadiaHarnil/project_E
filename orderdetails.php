@@ -6,12 +6,13 @@ include("admin/config/dbcon.php");
 $uname = $_SESSION['auth_user'];
 $qry = "SELECT pimage,item_name,price,qty,order_at FROM `orders`,`order_item` WHERE orders.order_id=order_item.order_id AND user_name='$uname'";
 $result = $con->query($qry);
+$count=mysqli_num_rows($result);
 ?>
 <div class="container my-5 d-flex justify-content-center">
     <div class="card card-1">
         <div class="card-header bg-white">
             <div class="media flex-sm-row flex-column-reverse justify-content-between ">
-                <?php if (isset($_SESSION['cart'])): ?>
+                <?php if ($count>0): ?>
                     <div class="col my-auto">
                         <h4 class="mb-0 text-center">Thanks for your Order,<span class="change-color">
                                 <?= $uname; ?>
@@ -61,24 +62,13 @@ $result = $con->query($qry);
                                         </div>
                                     </div>
                                 </div>
-                                <hr class="my-3 ">
-                                <div class="row">
-
-
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <<<<<<< HEAD </div>
-            </div>
+            <?php } ?>
         </div>
     </div>
-    </div>
-<?php } ?>
 </div>
-</div>
-</div>
-
 </div>
 <?php include("includes/scripts.php") ?>
